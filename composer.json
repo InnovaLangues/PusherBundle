@@ -26,7 +26,7 @@
     "homepage": "http://github.com/InnovaLangues/PusherBundle",
     "license": "MIT",
     "require": {
-        "guzzlehttp/guzzle": "~6.1"
+    	"innova/pusher"
     },
     "autoload": {
         "psr-0": { "Innova\\PusherBundle": "" }
