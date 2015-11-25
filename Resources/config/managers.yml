@@ -1,0 +1,8 @@
+services:
+    innova_pusher.manager:
+        class: Innova\PusherBundle\Manager\PusherManager
+        arguments:
+        	url: %pusher.url%
+            app: %pusher.app%
+            key: %pusher.key%
+            secret: %pusher.secret%
